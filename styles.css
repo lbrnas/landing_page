@@ -1,0 +1,149 @@
+.color1{
+    background-color: #1F2937;
+    padding: 0 15%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.left-links{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.right-links{
+    display:flex;
+    margin-right: 0;
+    margin-left: auto;
+    gap: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: 40px 0;
+}
+
+.intro-heading{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+} 
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.right-intro{
+    background-color: grey;
+    color: #F9FAF8;
+    padding: 10%;
+}
+
+.informations-heading {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.informations{
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 15%;
+    margin: 30px auto;
+    flex: 1;
+}
+
+.ilustration{
+    border:#3882F6 5px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px auto; 
+}
+
+.subtext{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.testimonials{
+    background-color: #E5E7EB;
+    padding: 0 15%;
+}    
+
+.testimonial{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 30px 30px;
+    margin-top: 30px;
+}
+
+.author{
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding: 30px;
+}
+
+.cta{
+    display: flex;
+    background-color: #3882F6;
+    margin: 5% 15%;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.cta-text{
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px 0;
+}
